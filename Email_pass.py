@@ -1,7 +1,7 @@
 import os
 
-DB_USER2 = os.environ.get('EMAIL_USER')
-DB_PASS2 = os.environ.get('EMAIL_PASS')
+DB_USER = os.environ.get('EMAIL_USER')
+DB_PASS = os.environ.get('EMAIL_PASS')
 
-print(DB_USER2)
-print(DB_PASS2)
+print(DB_USER)
+print(DB_PASS)
